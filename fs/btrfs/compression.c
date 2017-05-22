@@ -807,6 +807,8 @@ static struct workspaces_list btrfs_heuristic_ws;
 static const struct btrfs_compress_op * const btrfs_compress_op[] = {
 	&btrfs_zlib_compress,
 	&btrfs_lzo_compress,
+	&btrfs_lz4_compress,
+	&btrfs_lz4hc_compress,
 	&btrfs_zstd_compress,
 };
 
